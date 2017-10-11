@@ -1,0 +1,365 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AFLAGS	test/Makefile	/^AFLAGS:=$/;"	m
+AS	test/Makefile	/^AS:=ca65$/;"	m
+BASEDIR	test/Makefile	/^BASEDIR:=..$/;"	m
+BP_L1_IDX	src/shell.c	19;"	d	file:
+BP_L2_IDX	src/shell.c	18;"	d	file:
+BP_PRESENT	src/shell.c	20;"	d	file:
+BP_SET_NOT_PRESENT	src/shell.c	22;"	d	file:
+BP_SET_PRESENT	src/shell.c	21;"	d	file:
+CARTROM_OFFSET	include/cartrom.h	10;"	d
+CARTROM_SIZE	include/cartrom.h	7;"	d
+CARTROM_START	include/cartrom.h	9;"	d
+CART_ROM_START	include/sys.h	10;"	d
+CC	Makefile	/^CC := gcc$/;"	m
+CC	test/Makefile	/^CC:=cc65$/;"	m
+CFGDIR	test/Makefile	/^CFGDIR:=$(BASEDIR)\/cfg$/;"	m
+CFLAGS	Makefile	/^CFLAGS := -Wall -Wno-unused-function -Iinclude -I\/usr\/include\/SDL2 -O2$/;"	m
+CFLAGS	test/Makefile	/^CFLAGS:=$/;"	m
+CL	test/Makefile	/^CL:=cl65$/;"	m
+CMD_SET_CURSOR	include/dev/gfx.h	/^	CMD_SET_CURSOR = 0,$/;"	e	enum:cga_cmd
+CMP	src/shell.c	326;"	d	file:
+COLOR_BLACK	include/dev/gfx.h	/^	COLOR_BLACK    = 0,$/;"	e	enum:cga_color
+COLOR_BLUE	include/dev/gfx.h	/^	COLOR_BLUE     = 1,$/;"	e	enum:cga_color
+COLOR_BROWN	include/dev/gfx.h	/^	COLOR_BROWN    = 6,$/;"	e	enum:cga_color
+COLOR_CYAN	include/dev/gfx.h	/^	COLOR_CYAN     = 3,$/;"	e	enum:cga_color
+COLOR_DGREY	include/dev/gfx.h	/^	COLOR_DGREY    = 8,$/;"	e	enum:cga_color
+COLOR_GREEN	include/dev/gfx.h	/^	COLOR_GREEN    = 2,$/;"	e	enum:cga_color
+COLOR_LBLUE	include/dev/gfx.h	/^	COLOR_LBLUE    = 9,$/;"	e	enum:cga_color
+COLOR_LBROWN	include/dev/gfx.h	/^	COLOR_LBROWN   = 14,$/;"	e	enum:cga_color
+COLOR_LCYAN	include/dev/gfx.h	/^	COLOR_LCYAN    = 11,$/;"	e	enum:cga_color
+COLOR_LGREEN	include/dev/gfx.h	/^	COLOR_LGREEN   = 10,$/;"	e	enum:cga_color
+COLOR_LGREY	include/dev/gfx.h	/^	COLOR_LGREY    = 7,$/;"	e	enum:cga_color
+COLOR_LMAGENTA	include/dev/gfx.h	/^	COLOR_LMAGENTA = 13,$/;"	e	enum:cga_color
+COLOR_LRED	include/dev/gfx.h	/^	COLOR_LRED     = 12,$/;"	e	enum:cga_color
+COLOR_MAGENTA	include/dev/gfx.h	/^	COLOR_MAGENTA  = 5,$/;"	e	enum:cga_color
+COLOR_RED	include/dev/gfx.h	/^	COLOR_RED      = 4,$/;"	e	enum:cga_color
+COLOR_WHITE	include/dev/gfx.h	/^	COLOR_WHITE    = 15$/;"	e	enum:cga_color
+CONT_BUTTON_A	include/dev/controller.h	9;"	d
+CONT_BUTTON_B	include/dev/controller.h	10;"	d
+CONT_BUTTON_DOWN	include/dev/controller.h	12;"	d
+CONT_BUTTON_LEFT	include/dev/controller.h	13;"	d
+CONT_BUTTON_PORT	include/dev/controller.h	22;"	d
+CONT_BUTTON_RIGHT	include/dev/controller.h	14;"	d
+CONT_BUTTON_SEL	include/dev/controller.h	16;"	d
+CONT_BUTTON_STRT	include/dev/controller.h	15;"	d
+CONT_BUTTON_UP	include/dev/controller.h	11;"	d
+CONT_MMIO_SIZE	include/dev/controller.h	6;"	d
+CONT_MMIO_START	include/dev/controller.h	5;"	d
+CONT_NUM_REGS	include/dev/controller.h	20;"	d
+CONT_REG_OFFSET	include/dev/controller.h	7;"	d
+CPU_6502	src/cartrom.c	15;"	d	file:
+CPU_65C02	src/cartrom.c	16;"	d	file:
+DEBUG_PRINT	include/base.h	14;"	d
+DEBUG_PRINT	include/base.h	15;"	d
+DEBUG_PRINT	include/base.h	9;"	d
+DEPENDS	Makefile	/^DEPENDS := $(OBJ:.o=.d)$/;"	m
+ERROR_PRINT	include/base.h	10;"	d
+GFX_CGA_HEIGHT	include/dev/gfx.h	14;"	d
+GFX_CGA_WIDTH	include/dev/gfx.h	13;"	d
+GFX_CMD_PORT	include/dev/gfx.h	9;"	d
+GFX_FB_SIZE	include/dev/gfx.h	8;"	d
+GFX_FB_START	include/dev/gfx.h	7;"	d
+GFX_MMIO_SIZE	include/dev/gfx.h	6;"	d
+GFX_MMIO_START	include/dev/gfx.h	5;"	d
+GUI_CGA_HEIGHT	include/gui/gui.h	18;"	d
+GUI_CGA_WIDTH	include/gui/gui.h	17;"	d
+GUI_FONT_FILE	include/gui/gui.h	14;"	d
+GUI_FONT_SIZE	include/gui/gui.h	15;"	d
+GUI_LINE_IS_DIRTY	include/gui/gui.h	56;"	d
+GUI_SET_DIRTY_LINE	include/gui/gui.h	50;"	d
+GUI_UNSET_DIRTY_LINE	include/gui/gui.h	53;"	d
+GUI_UPDATE_PERIOD_MS	src/gui/gui.c	21;"	d	file:
+GUI_WIN_NAME	include/gui/gui.h	9;"	d
+GUI_WIN_SIZEX	include/gui/gui.h	11;"	d
+GUI_WIN_SIZEY	include/gui/gui.h	12;"	d
+GUI_X_POS	include/gui/gui.h	20;"	d
+GUI_Y_POS	include/gui/gui.h	21;"	d
+HAWKNEST_VERSION_STRING	include/base.h	6;"	d
+INFO_PRINT	include/base.h	8;"	d
+INTR_IRQ	include/mos6502/cpu.h	/^	INTR_IRQ,$/;"	e	enum:__anon4
+INTR_NMI	include/mos6502/cpu.h	/^	INTR_NMI,$/;"	e	enum:__anon4
+INTR_NONE	include/mos6502/cpu.h	/^	INTR_NONE = 0,$/;"	e	enum:__anon4
+IO_START	include/sys.h	9;"	d
+LD	test/Makefile	/^LD:=ld65$/;"	m
+LDFLAGS	Makefile	/^LDFLAGS := $/;"	m
+LDFLAGS	test/Makefile	/^LDFLAGS:= -C $(CFGDIR)\/hawknest.cfg $/;"	m
+LIB	test/Makefile	/^LIB:=hawknest.lib$/;"	m
+LIBDIR	test/Makefile	/^LIBDIR:=$(BASEDIR)\/lib$/;"	m
+LIBS	Makefile	/^LIBS := -lSDL2 -lSDL2_ttf -lm -lrt$/;"	m
+MAX_CMD_LEN	include/shell.h	6;"	d
+MAX_DEVS	include/io.h	7;"	d
+MAX_DEV_NAME_LEN	include/io.h	8;"	d
+MEM_END	include/sys.h	12;"	d
+MODE_ABS	include/mos6502/cpu.h	/^	MODE_ABS,$/;"	e	enum:__anon5
+MODE_ABSX	include/mos6502/cpu.h	/^	MODE_ABSX,$/;"	e	enum:__anon5
+MODE_ABSY	include/mos6502/cpu.h	/^	MODE_ABSY,$/;"	e	enum:__anon5
+MODE_ACC	include/mos6502/cpu.h	/^	MODE_ACC,$/;"	e	enum:__anon5
+MODE_IDXIND	include/mos6502/cpu.h	/^	MODE_IDXIND,$/;"	e	enum:__anon5
+MODE_IMM	include/mos6502/cpu.h	/^	MODE_IMM,$/;"	e	enum:__anon5
+MODE_IMPL	include/mos6502/cpu.h	/^	MODE_IMPL,$/;"	e	enum:__anon5
+MODE_IND	include/mos6502/cpu.h	/^	MODE_IND,$/;"	e	enum:__anon5
+MODE_INDIDX	include/mos6502/cpu.h	/^	MODE_INDIDX,$/;"	e	enum:__anon5
+MODE_NONE	include/mos6502/cpu.h	/^	MODE_NONE = 0,$/;"	e	enum:__anon5
+MODE_REL	include/mos6502/cpu.h	/^	MODE_REL,$/;"	e	enum:__anon5
+MODE_ZEROP	include/mos6502/cpu.h	/^	MODE_ZEROP,$/;"	e	enum:__anon5
+MODE_ZEROPX	include/mos6502/cpu.h	/^	MODE_ZEROPX,$/;"	e	enum:__anon5
+MODE_ZEROPY	include/mos6502/cpu.h	/^	MODE_ZEROPY,$/;"	e	enum:__anon5
+NPAGES_IO	include/sys.h	14;"	d
+NPAGES_RAM	include/sys.h	7;"	d
+OBJ	Makefile	/^OBJ := $(patsubst %.c, %.o, \\$/;"	m
+OBJS	test/Makefile	/^OBJS:=$(patsubst %.s,%.o, $(wildcard *.s))$/;"	m
+ONECHAR	src/shell.c	328;"	d	file:
+PAGE_SHIFT	include/sys.h	6;"	d
+PAGE_SIZE	include/sys.h	5;"	d
+PROMPT_STR	include/shell.h	4;"	d
+RAM_SIZE	include/sys.h	4;"	d
+SRC	Makefile	/^SRC := $/;"	m
+SYSROM_OFFSET	include/sysrom.h	10;"	d
+SYSROM_SIZE	include/sysrom.h	9;"	d
+SYS_ROM_START	include/sys.h	11;"	d
+TARGET	Makefile	/^TARGET := hawknest$/;"	m
+VMCALL_ARGS	include/mos6502/vmcall.h	4;"	d
+VMCALL_CLOSE	include/mos6502/vmcall.h	7;"	d
+VMCALL_EXIT	include/mos6502/vmcall.h	5;"	d
+VMCALL_OPEN	include/mos6502/vmcall.h	6;"	d
+VMCALL_READ	include/mos6502/vmcall.h	8;"	d
+VMCALL_WRITE	include/mos6502/vmcall.h	9;"	d
+__BASE_H__	include/base.h	2;"	d
+__CARTROM_H__	include/cartrom.h	2;"	d
+__CONTROLLER_H__	include/dev/controller.h	2;"	d
+__GFX_H__	include/dev/gfx.h	2;"	d
+__GUI_H__	include/gui/gui.h	2;"	d
+__IO_H__	include/io.h	2;"	d
+__MEMCTRL_H__	include/memctrl.h	2;"	d
+__MOS6502_H__	include/mos6502/cpu.h	2;"	d
+__SHELL_H__	include/shell.h	2;"	d
+__SYSROM_H__	include/sysrom.h	2;"	d
+__SYS_H__	include/sys.h	2;"	d
+__VMCALL_H__	include/mos6502/vmcall.h	2;"	d
+_testwrite	test/testwrite.s	/^_testwrite:$/;"	l
+a	include/mos6502/cpu.h	/^	uint8_t  a;   \/\/ accumulator $/;"	m	struct:mos6502
+addr	include/mos6502/cpu.h	/^	uint16_t addr;$/;"	m	struct:decoder_info
+addr_mode_t	include/mos6502/cpu.h	/^} addr_mode_t;$/;"	t	typeref:enum:__anon5
+b	include/mos6502/cpu.h	/^			uint8_t b : 1; \/\/ break command$/;"	m	struct:__anon1::__anon2::__anon3
+block_size	include/io.h	/^	size_t block_size; \/\/ how much IO memory it owns$/;"	m	struct:io_dev
+block_start	include/io.h	/^	uint16_t block_start; \/\/ address of first block owned by this device$/;"	m	struct:io_dev
+bp_list	src/shell.c	/^bp_list ()$/;"	f	file:
+bptl2	src/shell.c	/^static uint8_t* bptl2[256];$/;"	v	file:
+buggy_read16	src/mos6502/cpu.c	/^buggy_read16 (mos6502_t * cpu, uint16_t addr)$/;"	f
+c	include/mos6502/cpu.h	/^			uint8_t c : 1; \/\/ carry flag$/;"	m	struct:__anon1::__anon2::__anon3
+cartrom	include/cartrom.h	/^typedef struct cartrom {$/;"	s
+cartrom	src/cartrom.c	/^static uint8_t cartrom[CARTROM_SIZE];$/;"	v	file:
+cartrom_load	src/cartrom.c	/^cartrom_load (const char * path)$/;"	f
+cartrom_read	src/cartrom.c	/^cartrom_read (uint16_t addr)$/;"	f
+cartrom_t	include/cartrom.h	/^} cartrom_t;$/;"	t	typeref:struct:cartrom
+cga_cmd	include/dev/gfx.h	/^typedef enum cga_cmd {$/;"	g
+cga_cmd_t	include/dev/gfx.h	/^} cga_cmd_t;$/;"	t	typeref:enum:cga_cmd
+cga_color	include/dev/gfx.h	/^typedef enum cga_color {$/;"	g
+cga_color_t	include/dev/gfx.h	/^} cga_color_t;$/;"	t	typeref:enum:cga_color
+cmd_brk	src/shell.c	/^cmd_brk (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_cont	src/shell.c	/^cmd_cont (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_dumpmem	src/shell.c	/^cmd_dumpmem (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_help	src/shell.c	/^cmd_help (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_irq	src/shell.c	/^cmd_irq (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_jump	src/shell.c	/^cmd_jump (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_nmi	src/shell.c	/^cmd_nmi (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_peek	src/shell.c	/^cmd_peek (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_poke	src/shell.c	/^cmd_poke (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_print_instr	src/shell.c	/^cmd_print_instr (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_quit	src/shell.c	/^cmd_quit (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_regs	src/shell.c	/^cmd_regs (mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_step	src/shell.c	/^cmd_step(mos6502_t * cpu, char * cmd)$/;"	f	file:
+cmd_stepn	src/shell.c	/^cmd_stepn (mos6502_t * cpu, char * cmd)$/;"	f	file:
+console	include/gui/gui.h	/^	gui_console_t * console;$/;"	m	struct:gui_state
+cont_ops	src/dev/controller.c	/^static io_dev_ops_t cont_ops = {$/;"	v	file:
+cont_read	src/dev/controller.c	/^cont_read (uint16_t addr, void * priv_data)$/;"	f	file:
+cont_reset	src/dev/controller.c	/^cont_reset (void * priv_data)$/;"	f	file:
+cont_state	include/dev/controller.h	/^typedef struct cont_state {$/;"	s
+cont_state_t	include/dev/controller.h	/^} cont_state_t;$/;"	t	typeref:struct:cont_state
+cont_write	src/dev/controller.c	/^cont_write (uint16_t addr, uint8_t val, void * priv_data)$/;"	f	file:
+controller	include/dev/controller.h	/^typedef struct controller {$/;"	s
+controller_init	src/dev/controller.c	/^controller_init (system_t * sys)$/;"	f
+controller_t	include/dev/controller.h	/^} controller_t; $/;"	t	typeref:struct:controller
+cpu	include/mos6502/cpu.h	/^	mos6502_t * cpu;$/;"	m	struct:decoder_info
+cpu	include/sys.h	/^	struct mos6502 * cpu;$/;"	m	struct:system	typeref:struct:system::mos6502
+custom_read	src/memctrl.c	/^custom_read (system_t * sys, uint16_t addr)$/;"	f	file:
+custom_write	src/memctrl.c	/^custom_write (system_t * sys, uint16_t addr, uint8_t val)$/;"	f	file:
+cycle_counter	include/mos6502/cpu.h	/^	uint64_t cycle_counter;$/;"	m	struct:mos6502
+d	include/mos6502/cpu.h	/^			uint8_t d : 1; \/\/ decimal mode$/;"	m	struct:__anon1::__anon2::__anon3
+decode_info_t	include/mos6502/cpu.h	/^} decode_info_t;$/;"	t	typeref:struct:decoder_info
+decoder_info	include/mos6502/cpu.h	/^typedef struct decoder_info {$/;"	s
+default_key_handler	src/gui/gui.c	/^default_key_handler (SDL_Keycode k, system_t * sys)$/;"	f	file:
+devs	include/io.h	/^	io_dev_t * devs[MAX_DEVS];$/;"	m	struct:io_subsys
+fb	include/dev/gfx.h	/^	uint8_t fb[GFX_FB_SIZE];$/;"	m	struct:gfx_state
+fb_ops	src/dev/gfx.c	/^static io_dev_ops_t fb_ops = {$/;"	v	file:
+fb_read	src/dev/gfx.c	/^fb_read (uint16_t addr, void * priv_data)$/;"	f	file:
+fb_reset	src/dev/gfx.c	/^fb_reset (void * priv_data)$/;"	f	file:
+fb_write	src/dev/gfx.c	/^fb_write (uint16_t addr, uint8_t val, void * priv_data)$/;"	f	file:
+flags	include/gui/gui.h	/^	uint8_t flags;$/;"	m	struct:gui_console_line_buf
+font	include/gui/gui.h	/^	TTF_Font * font;$/;"	m	struct:gui_state
+font_color	include/gui/gui.h	/^	SDL_Color font_color;$/;"	m	struct:gui_state
+get_ax	src/mos6502/vmcall.c	/^get_ax (mos6502_t * cpu)$/;"	f	file:
+gfx_card	include/dev/gfx.h	/^typedef struct gfx_card {$/;"	s
+gfx_card_t	include/dev/gfx.h	/^} gfx_card_t;$/;"	t	typeref:struct:gfx_card
+gfx_init	src/dev/gfx.c	/^gfx_init (system_t * sys)$/;"	f
+gfx_state	include/dev/gfx.h	/^typedef struct gfx_state {$/;"	s
+gfx_state_t	include/dev/gfx.h	/^} gfx_state_t;$/;"	t	typeref:struct:gfx_state
+gui	include/sys.h	/^	struct gui_state * gui;$/;"	m	struct:system	typeref:struct:system::gui_state
+gui_clear_screen	src/gui/gui.c	/^gui_clear_screen (gui_state_t * gs)$/;"	f
+gui_console	include/gui/gui.h	/^typedef struct gui_console {$/;"	s
+gui_console_line_buf	include/gui/gui.h	/^typedef struct gui_console_line_buf {$/;"	s
+gui_console_t	include/gui/gui.h	/^} gui_console_t;$/;"	t	typeref:struct:gui_console
+gui_deinit	src/gui/gui.c	/^gui_deinit (gui_state_t * gs)$/;"	f
+gui_draw_str	src/gui/gui.c	/^gui_draw_str (system_t * sys,$/;"	f
+gui_init	src/gui/gui.c	/^gui_init (system_t * sys)$/;"	f
+gui_line_buf_t	include/gui/gui.h	/^} gui_line_buf_t;$/;"	t	typeref:struct:gui_console_line_buf
+gui_loop	src/gui/gui.c	/^gui_loop (system_t * sys)$/;"	f
+gui_register_keyhandler	src/gui/gui.c	/^gui_register_keyhandler (gui_state_t * gs,$/;"	f
+gui_render_txt	src/gui/gui.c	/^gui_render_txt (gui_state_t * gs, const char * msg)$/;"	f	file:
+gui_state	include/gui/gui.h	/^typedef struct gui_state {$/;"	s
+gui_state_t	include/gui/gui.h	/^} gui_state_t;$/;"	t	typeref:struct:gui_state
+gui_timer	src/gui/gui.c	/^static timer_t gui_timer;$/;"	v	file:
+gui_timer_notify	src/gui/gui.c	/^gui_timer_notify (union sigval val)$/;"	f	file:
+gui_update_console_char	src/gui/gui.c	/^gui_update_console_char (system_t * sys, char c, int x, int y)$/;"	f
+gui_update_screen	src/gui/gui.c	/^gui_update_screen (system_t * sys)$/;"	f
+handle_a	src/dev/controller.c	/^handle_a (controller_t * c)$/;"	f	file:
+handle_args	src/mos6502/vmcall.c	/^handle_args (mos6502_t * cpu)$/;"	f	file:
+handle_b	src/dev/controller.c	/^handle_b (controller_t * c)$/;"	f	file:
+handle_close	src/mos6502/vmcall.c	/^handle_close (mos6502_t * cpu)$/;"	f	file:
+handle_cmd	src/shell.c	/^handle_cmd (mos6502_t * cpu, char * cmd)$/;"	f	file:
+handle_cont_port_read	src/dev/controller.c	/^handle_cont_port_read (cont_state_t * state, uint8_t portnum) $/;"	f	file:
+handle_down	src/dev/controller.c	/^handle_down (controller_t * c)$/;"	f	file:
+handle_exit	src/mos6502/vmcall.c	/^handle_exit (mos6502_t * cpu)$/;"	f	file:
+handle_key	src/gui/gui.c	/^handle_key (system_t * sys, SDL_Keycode k)$/;"	f	file:
+handle_keypress	src/dev/controller.c	/^handle_keypress (SDL_Keycode k, void * priv_data)$/;"	f	file:
+handle_left	src/dev/controller.c	/^handle_left (controller_t * c)$/;"	f	file:
+handle_open	src/mos6502/vmcall.c	/^handle_open (mos6502_t * cpu)$/;"	f	file:
+handle_read	src/mos6502/vmcall.c	/^handle_read (mos6502_t * cpu)$/;"	f	file:
+handle_right	src/dev/controller.c	/^handle_right (controller_t * c)$/;"	f	file:
+handle_select	src/dev/controller.c	/^handle_select (controller_t * c)$/;"	f	file:
+handle_start	src/dev/controller.c	/^handle_start (controller_t * c)$/;"	f	file:
+handle_up	src/dev/controller.c	/^handle_up (controller_t * c)$/;"	f	file:
+handle_vmcall	src/mos6502/vmcall.c	/^handle_vmcall (decode_info_t * info)$/;"	f
+handle_write	src/mos6502/vmcall.c	/^handle_write (mos6502_t * cpu)$/;"	f	file:
+hello	test/testwrite.s	/^hello:$/;"	l
+i	include/mos6502/cpu.h	/^			uint8_t i : 1; \/\/ interrupt disable$/;"	m	struct:__anon1::__anon2::__anon3
+insert_bp	src/shell.c	/^insert_bp (uint16_t bp_addr)$/;"	f	file:
+instr_len	include/mos6502/cpu.h	/^	uint8_t instr_len;$/;"	m	struct:decoder_info
+intr_status	include/mos6502/cpu.h	/^	intr_t intr_status; $/;"	m	struct:mos6502
+intr_t	include/mos6502/cpu.h	/^} intr_t;$/;"	t	typeref:enum:__anon4
+io	include/io.h	/^	struct io_subsys * io; \/\/ parent pointer$/;"	m	struct:io_dev	typeref:struct:io_dev::io_subsys
+io	include/sys.h	/^	struct io_subsys * io;$/;"	m	struct:system	typeref:struct:system::io_subsys
+io_dev	include/io.h	/^typedef struct io_dev {$/;"	s
+io_dev_create	src/io.c	/^io_dev_create (io_subsys_t * io,$/;"	f
+io_dev_destroy	src/io.c	/^io_dev_destroy (io_dev_t * dev)$/;"	f
+io_dev_ops	include/io.h	/^typedef struct io_dev_ops {$/;"	s
+io_dev_ops_t	include/io.h	/^} io_dev_ops_t;$/;"	t	typeref:struct:io_dev_ops
+io_dev_t	include/io.h	/^} io_dev_t;$/;"	t	typeref:struct:io_dev
+io_init	src/io.c	/^io_init (system_t * sys)$/;"	f
+io_page	include/io.h	/^typedef struct io_page {$/;"	s
+io_page_t	include/io.h	/^} io_page_t;$/;"	t	typeref:struct:io_page
+io_pages	src/io.c	/^static io_page_t io_pages[NPAGES_IO];$/;"	v	file:
+io_read	src/io.c	/^io_read (uint16_t addr)$/;"	f
+io_subsys	include/io.h	/^typedef struct io_subsys {$/;"	s
+io_subsys_t	include/io.h	/^} io_subsys_t;$/;"	t	typeref:struct:io_subsys
+io_write	src/io.c	/^io_write (uint16_t addr, uint8_t val)$/;"	f
+is_valid_bp	src/shell.c	/^is_valid_bp (uint16_t bp_addr)$/;"	f	file:
+key_handler	include/gui/gui.h	/^	key_handler_t key_handler;$/;"	m	struct:gui_state
+key_handler_data	include/gui/gui.h	/^	void * key_handler_data;$/;"	m	struct:gui_state
+key_handler_t	include/gui/gui.h	/^typedef void (*key_handler_t)(SDL_Keycode k, void * priv_data);$/;"	t
+line_buf	include/gui/gui.h	/^	char line_buf[GUI_CGA_WIDTH];$/;"	m	struct:gui_console_line_buf
+lines	include/gui/gui.h	/^	gui_line_buf_t lines[GUI_CGA_HEIGHT];$/;"	m	struct:gui_console
+long_options	src/main.c	/^static struct option long_options[] = {$/;"	v	typeref:struct:option	file:
+main	src/main.c	/^main (int argc, char ** argv) $/;"	f
+main	test/test.c	/^int main (int argc, char ** argv) {$/;"	f
+mem_read	src/memctrl.c	/^mem_read (system_t * sys, uint16_t addr)$/;"	f
+mem_write	src/memctrl.c	/^mem_write (system_t * sys, uint16_t addr, uint8_t val)$/;"	f
+memctrl	include/memctrl.h	/^typedef struct memctrl {$/;"	s
+memctrl	include/sys.h	/^	struct memctrl * memctrl;$/;"	m	struct:system	typeref:struct:system::memctrl
+memctrl_init	src/memctrl.c	/^memctrl_init (system_t * sys)$/;"	f
+memctrl_t	include/memctrl.h	/^} memctrl_t;$/;"	t	typeref:struct:memctrl
+mode	include/mos6502/cpu.h	/^	addr_mode_t mode;$/;"	m	struct:decoder_info
+mos6502	include/mos6502/cpu.h	/^typedef struct mos6502 {$/;"	s
+mos6502_dumpregs	src/mos6502/cpu.c	/^mos6502_dumpregs (mos6502_t * cpu)$/;"	f
+mos6502_init	src/mos6502/cpu.c	/^mos6502_init (system_t * sys)$/;"	f
+mos6502_print_instr	src/mos6502/cpu.c	/^mos6502_print_instr (mos6502_t * cpu)$/;"	f
+mos6502_raise_irq	src/mos6502/cpu.c	/^mos6502_raise_irq (mos6502_t * cpu)$/;"	f
+mos6502_raise_nmi	src/mos6502/cpu.c	/^mos6502_raise_nmi (mos6502_t * cpu)$/;"	f
+mos6502_reset	src/mos6502/cpu.c	/^mos6502_reset (mos6502_t * cpu)$/;"	f
+mos6502_step	src/mos6502/cpu.c	/^mos6502_step (mos6502_t * cpu)$/;"	f
+mos6502_t	include/mos6502/cpu.h	/^} mos6502_t;$/;"	t	typeref:struct:mos6502
+n	include/mos6502/cpu.h	/^			uint8_t n : 1; \/\/ negative flag$/;"	m	struct:__anon1::__anon2::__anon3
+name	include/io.h	/^	char name[MAX_DEV_NAME_LEN];$/;"	m	struct:io_dev
+opcode	include/mos6502/cpu.h	/^	uint8_t opcode;$/;"	m	struct:decoder_info
+ops	include/io.h	/^	io_dev_ops_t * ops;$/;"	m	struct:io_dev
+owner	include/io.h	/^	io_dev_t * owner;$/;"	m	struct:io_page
+p	include/mos6502/cpu.h	/^	stat_reg_t p; \/\/ processor status word$/;"	m	struct:mos6502
+page_crossed	include/mos6502/cpu.h	/^	uint8_t page_crossed;$/;"	m	struct:decoder_info
+paravirt_argc	src/mos6502/vmcall.c	/^static uint16_t paravirt_argc;$/;"	v	file:
+paravirt_argv	src/mos6502/vmcall.c	/^static char **  paravirt_argv;$/;"	v	file:
+paravirt_gui_enabled	src/mos6502/vmcall.c	/^static int paravirt_gui_enabled;$/;"	v	file:
+pc	include/mos6502/cpu.h	/^	uint16_t pc;  \/\/ program counter$/;"	m	struct:mos6502
+pop_parm	src/mos6502/vmcall.c	/^pop_parm (mos6502_t * cpu, uint16_t incr)$/;"	f	file:
+priv_data	include/io.h	/^	void * priv_data;$/;"	m	struct:io_dev
+pull	src/mos6502/cpu.c	/^pull (mos6502_t * cpu)$/;"	f
+pull16	src/mos6502/cpu.c	/^pull16 (mos6502_t * cpu)$/;"	f	file:
+push	src/mos6502/cpu.c	/^push (mos6502_t * cpu, uint8_t val)$/;"	f
+push16	src/mos6502/cpu.c	/^push16 (mos6502_t * cpu, uint16_t val)$/;"	f	file:
+ram	include/sys.h	/^	uint8_t ram[RAM_SIZE];$/;"	m	struct:system
+ram_init	src/sys.c	/^ram_init (system_t * sys)$/;"	f	file:
+read	include/io.h	/^	uint8_t (*read)(uint16_t addr, void * priv_data);$/;"	m	struct:io_dev_ops
+read	include/memctrl.h	/^	uint8_t (*read)(system_t * sys, uint16_t addr);$/;"	m	struct:memctrl
+read16	src/mos6502/cpu.c	/^read16 (mos6502_t * cpu, uint16_t addr)$/;"	f
+read_zp16	src/mos6502/vmcall.c	/^read_zp16 (mos6502_t * cpu, uint8_t addr)$/;"	f	file:
+regs	include/dev/controller.h	/^	uint8_t regs[CONT_NUM_REGS];$/;"	m	struct:cont_state
+remove_bp	src/shell.c	/^remove_bp (uint16_t bp_addr)$/;"	f	file:
+rend	include/gui/gui.h	/^	SDL_Renderer * rend;$/;"	m	struct:gui_state
+render_texture	src/gui/gui.c	/^render_texture (SDL_Texture * tex, SDL_Renderer * rend, int x, int y)$/;"	f	file:
+reset	include/io.h	/^	void (*reset)(void * priv_data);$/;"	m	struct:io_dev_ops
+set_ax	src/mos6502/vmcall.c	/^set_ax (mos6502_t * cpu, uint16_t val)$/;"	f	file:
+slot_num	include/io.h	/^	int slot_num; \/\/ slot on the I\/O bus$/;"	m	struct:io_dev
+sp	include/mos6502/cpu.h	/^	uint8_t sp;   \/\/ stack pointer$/;"	m	struct:mos6502
+start_shell	src/shell.c	/^start_shell (mos6502_t * cpu) $/;"	f
+stat_reg_t	include/mos6502/cpu.h	/^} __attribute__((packed)) stat_reg_t;$/;"	t	typeref:struct:__anon1
+state	include/dev/controller.h	/^	cont_state_t * state;$/;"	m	struct:controller
+state	include/dev/gfx.h	/^	gfx_state_t * state;$/;"	m	struct:gfx_card
+sys	include/cartrom.h	/^	struct system * sys;$/;"	m	struct:cartrom	typeref:struct:cartrom::system
+sys	include/dev/controller.h	/^	struct system * sys;$/;"	m	struct:controller	typeref:struct:controller::system
+sys	include/dev/gfx.h	/^	struct system * sys;$/;"	m	struct:gfx_card	typeref:struct:gfx_card::system
+sys	include/memctrl.h	/^	struct system * sys; $/;"	m	struct:memctrl	typeref:struct:memctrl::system
+sys	include/mos6502/cpu.h	/^	struct system * sys;$/;"	m	struct:mos6502	typeref:struct:mos6502::system
+sys	include/sysrom.h	/^	struct system * sys;$/;"	m	struct:sysrom	typeref:struct:sysrom::system
+sys_init	src/sys.c	/^sys_init (const char * rom_path,$/;"	f
+sys_reset	src/sys.c	/^sys_reset (system_t * sys)$/;"	f
+sysrom	include/sysrom.h	/^typedef struct sysrom {$/;"	s
+sysrom	src/sysrom.c	/^static uint8_t sysrom[SYSROM_SIZE];$/;"	v	file:
+sysrom_init	src/sysrom.c	/^sysrom_init(system_t * sys)$/;"	f
+sysrom_load	src/sysrom.c	/^sysrom_load (const char * path)$/;"	f
+sysrom_read	src/sysrom.c	/^sysrom_read (uint16_t addr)$/;"	f
+sysrom_t	include/sysrom.h	/^} sysrom_t;$/;"	t	typeref:struct:sysrom
+system	include/sys.h	/^typedef struct system {$/;"	s
+system_t	include/sys.h	/^} system_t;$/;"	t	typeref:struct:system
+test_asmwrite	test/test.c	/^test_asmwrite ()$/;"	f	file:
+test_filewrite	test/test.c	/^test_filewrite ()$/;"	f	file:
+test_fwrite	test/test.c	/^test_fwrite () $/;"	f	file:
+test_legfilewrite	test/test.c	/^test_legfilewrite()$/;"	f	file:
+test_printf	test/test.c	/^test_printf () {$/;"	f	file:
+u	include/mos6502/cpu.h	/^			uint8_t u : 1; \/\/ unused$/;"	m	struct:__anon1::__anon2::__anon3
+usage	src/main.c	/^usage (char ** argv)$/;"	f	file:
+v	include/mos6502/cpu.h	/^			uint8_t v : 1; \/\/ overflow flag$/;"	m	struct:__anon1::__anon2::__anon3
+val	include/mos6502/cpu.h	/^		uint8_t val;$/;"	m	union:__anon1::__anon2
+version	src/main.c	/^version (void)$/;"	f	file:
+vmcall_init	src/mos6502/vmcall.c	/^vmcall_init (int argc, char ** argv, int gui)$/;"	f
+win	include/gui/gui.h	/^	SDL_Window * win;$/;"	m	struct:gui_state
+write	include/io.h	/^	void (*write)(uint16_t addr, uint8_t val, void * priv_data);$/;"	m	struct:io_dev_ops
+write	include/memctrl.h	/^	void (*write)(system_t * sys, uint16_t addr, uint8_t val);$/;"	m	struct:memctrl
+write16	src/mos6502/vmcall.c	/^write16 (mos6502_t * cpu, uint16_t addr, uint16_t val)$/;"	f	file:
+x	include/mos6502/cpu.h	/^	uint8_t  x;   \/\/ GPR 1$/;"	m	struct:mos6502
+y	include/mos6502/cpu.h	/^	uint8_t  y;   \/\/ GPR 2$/;"	m	struct:mos6502
+z	include/mos6502/cpu.h	/^			uint8_t z : 1; \/\/ zero flag$/;"	m	struct:__anon1::__anon2::__anon3
